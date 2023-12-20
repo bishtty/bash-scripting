@@ -12,7 +12,7 @@ _echo_ is command “********aayush”******** is arguement.
 
 `a` (write the character after the cursor)
 
-************note: press `escape` button then give these : command*
+*note: press `escape` button then give these : command*
 
 `:w` to save the written stuff in file
 
@@ -22,47 +22,56 @@ _echo_ is command “********aayush”******** is arguement.
 
 `:q!` to ignore the change made in file and exit
 
--**************to make a bash file: `vim FILENAME.sh`*
+-*to make a bash file: `vim FILENAME.sh`*
 
-***********-after your have written your bash script change the permission: `chmod u+x FILENAME.sh`*
+*-after your have written your bash script change the permission: `chmod u+x FILENAME.sh`*
 
 -**********************then to run bash file:********************** *************`./FILENAME.sh`*************
 
 ### writing first shell script
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/e44254cb-7cb8-45ed-9203-8289fc9552f5/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/22453c7e-f674-4e4d-96ae-6b3379d5f3da)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/b4546217-e3f9-4551-8cf5-318b18416bcf/Untitled.png)
+
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/157b0ff1-5c4b-402e-97b1-5b54fae94fa3)
+
 
 ## variables
 
 making another shell file, to echo first name and last name
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/a0b66b3e-97e6-4978-80a4-4f20e7090c02/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/be5d6b7a-f347-4eae-bfdb-96c8b98e60f2)
+
 
 this is thing which i put inside vim editor
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/58d80e57-61b4-4ee4-9af8-7a3c6ab848f8/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/c9762377-651b-4581-94fe-68353d544a1e)
+
 
 making interactive bash script
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/d794df32-5ed0-43cd-8df3-a195f65e3b24/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/e3cb14b8-11f0-4997-935f-2131023e8fa0)
+
 
 inside vim editor
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/df23c4fe-c2e6-460e-bab6-a894a164baaa/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/1b4d9f2e-e070-42d3-82a1-49898a5426c3)
+
 
 ## positional arguement
 
 arguements are a specific positions- commands can take in arguements at a specific position, counting from 1(o being reserved for the shell)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/cc5dac2f-b8c4-44e3-8af7-02d17a7e4ce7/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/c6dfa3f5-e7ac-4cb4-aa4a-1992ae2e1019)
+
 
 create bash script to print first name and last name with just one line of code
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/2902b71c-4fa1-4e7b-a5db-e1e2ab14764d/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/11cc1a24-28e1-49bd-8acd-6aae7af6afbe)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/765d24aa-27da-4f5c-9b94-048dbe590c2a/Untitled.png)
+
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/e0b99722-7ba8-4a04-b1d1-8d137fa383b2)
+
 
 ## output/input redirection
 
@@ -70,55 +79,66 @@ create bash script to print first name and last name with just one line of code
 
 output redirection symbol used
 
->symbol to write to a file
+`>` symbol to write to a file
 
->>to append to a file
+`>>` to append to a file
 
 used in- logging to a logfile (for e.x using timestamps), dynamically creating a (config) files
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/aa7d562a-84ab-4358-b2f5-4b3411874b17/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/8f975272-498e-413b-a271-dfe2a65c01f0)
+
 
 ****************good day to you****************  replaced ************hello world************  because `>` using this replaces the previous written data
 
 below showing `>>` example
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/d0379950-c059-4563-9a5e-750c54032aaa/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/1375db3a-a623-4688-8257-006461c43507)
+
 
 `wc` command for word count
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/ae3ccf1b-e79b-44dc-8e93-96c9bf0772f8/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/0e509b21-26d2-4577-89b9-b881fb9bca0a)
 
 *********************notice the difference*********************
 
 `EOF` command
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/a4260c25-bf5d-4b43-a0bc-acb988d5d788/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/3a9ed166-2eca-4d68-94cc-4480883619f7)
+
 
 ## test operator
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/ac412634-8c83-46e1-bce6-d831ee20e5c5/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/0159f85a-2a79-43b4-a527-d473eca6014c)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/870e3890-1f86-4e23-a7de-8498be9371f7/Untitled.png)
+
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/0018b4db-33e5-4ee5-b03a-1888416ed030)
+
 
 ## if/elif/else
 
 ********************actual code(running)********************
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/d191e968-9b7b-4ebe-ba5d-6b4aee0edfbb/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/28b2cd79-f498-49bf-89b8-773719b3592f)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/954e17db-1ef2-4bba-ab38-ff87a51d505e/Untitled.png)
+
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/b21b285b-dccd-41ae-ac0a-713511a44e61)
+
 
 ********my code(not running; error: “bad susbtitution”)********
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/35b15cb5-ce3c-48f2-a20e-8ed70ff868c8/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/7f43bac7-920d-4b7f-bd7e-0280eb8c6189)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/8bbaf92c-3212-4bca-a63c-488986843a7a/Untitled.png)
+
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/3b33cdf5-0f82-4ba6-8eac-b40843d48766)
+
 
 *******************************my code now running- i changed #!/usr/bin/zsh to **********************#!/bin/bash***********************
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/90e01181-5184-4d88-8a36-d9c1bc302377/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/0026c969-3f63-4cea-b4ab-6b812af76ffc)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/0e7aa280-339e-49d0-8859-3c8c7f130f3e/Untitled.png)
+
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/51f0bc81-88fd-4c7b-8eaf-46fa49b5ab15)
+
 
 ## case statements
 
@@ -128,64 +148,79 @@ below showing `>>` example
 
 -easier to read
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/0ce03a6d-af84-4d29-814b-a7ed612581f2/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/4fa24a9c-471a-4942-a8dd-a60c6bc49ab4)
+
 
 here `*` is used catch-all or default option
 
 ## Arrays
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/45b237d8-a3b4-4375-8efe-ffb74b723b4f/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/e8f5cf54-9793-4dcb-b84d-ccd14f6d2e1a)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/f26a5f22-ea13-49db-8772-e2fc19214577/Untitled.png)
+
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/87f69181-12d6-42a7-9aaf-a99d12ce9b16)
+
 
 ## for loop
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/64d77e8f-eeea-4051-ae64-180b9d15cd96/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/c2148d4e-1ae8-44c5-b71a-2aeb5be316b7)
+
 
 ## functions
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/6386194d-e974-44bb-a9a5-1bbcc55b3117/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/baa27953-7edc-4fb8-92a7-b8ba4878501c)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/fd7f0c60-873d-4b90-b65f-50a5f07c4c16/Untitled.png)
+
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/da7ceb16-bf9e-43d8-9fd4-990cb18a2c3e)
+
 
 **********local and global variable**********
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/e83ca020-a3d3-4e25-be12-2dfb909a5eae/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/fbd3458e-da2b-422f-ad60-70f8f63da052)
+
 
 here we have defined global and local variable of same name and local variable have overwritten the 2nd echo command of global variable with its output
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/7365e9c2-14c0-4671-b5e6-b32e3fbf644d/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/1883e23c-3789-4769-98be-c08db6698173)
+
 
 to avoid this we explicitly define local variable by using ******local****** keyword
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/734cfac2-a10b-42aa-8684-8b4e2482ca23/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/fc992674-e5d4-400d-bcda-57c8e95cf008)
+
 
 now check the how output is changed
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/395ff10f-cf55-46c3-bc00-11ac74f875b9/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/4475e11c-b50b-4faf-b03d-b8aa63deff57)
+
 
 ## exit codes
 
 **************************************positional function**************************************
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/1640eafe-235f-4f7c-b914-d39c96c7b439/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/c9ed3bf7-e141-4c5d-ab03-b193d8385bd4)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/55fd3f87-cca4-47aa-982f-74243502073a/Untitled.png)
+
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/ca0b878e-6e61-4ab8-b017-eb586bb63c6d)
+
 
 ## awk
 
 to fillter file content or output of the command in such a way that we can print out the most essential parts and get the output the way we like it.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/d2d86c0e-6988-48c1-a752-0de542e8e353/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/76eb8b0e-08bc-4820-9d0a-cf29e0402eea)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/d7df1441-7eae-48c6-9a06-bd3ab8d59b8e/Untitled.png)
+
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/3e017912-cea9-4036-a594-58b462efaecb)
+
 
 ## SED
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/872d9749-e859-4476-b810-650706cd242f/aa81bf96-c2e3-4f91-a133-27451deb7d3a/Untitled.png)
+![image](https://github.com/bishtty/bash-scripting/assets/42225594/cd04a1fc-0004-42d1-81bb-cdbe66a63a64)
+
 
 understanding the **sed** command
 
 `sed 's/fly/grasshopper/g' sedtext.txt`
 
-here `s` is used to substitute; fly with grasshopper; `g` is to change globally
+here `s` is used to substitute _fly_ with _grasshopper_ `g` is to change globally
